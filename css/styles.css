@@ -54,8 +54,6 @@ header {
 footer {
   background-color: #000;
   color: #dee239;
-  position: relative;
-  top: 25em;
   padding: 1em 0;
 }
 
@@ -70,4 +68,15 @@ footer p {
 .web {
   text-decoration: none;
   color: #dee239;
+}
+
+.content {
+  padding-top: 5em;
+}
+
+.fotorama {
+  padding: 3em 0;
+  width: 1024px;
+  display: block;
+  margin: 0 auto;
 }

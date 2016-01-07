@@ -10,14 +10,15 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/styles.css">
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+        <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
     </head>
     <body>
         <header>
             <div class="container">
-                <img id="logo" src="assets/img/Portrait-logo.svg" alt="logo">
+                <a href="#"><img id="logo" src="assets/img/Portrait-logo.svg" alt="logo"></a>
 
                 <ul class="nav">
-                    <li><a href="#">Wedding</a></li>
+                    <li><a href="weddings.html">Wedding</a></li>
                     <li><a href="#">Engagement</a></li>
                     <li><a href="#">Children</a></li>
                     <li><a href="#">Family</a></li>
@@ -28,15 +29,13 @@
             </div>
         </header>
         <section id="home-content" class="container">
-            <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px;">
-                <!-- Slides Container -->
-                <div id="slider" u="slides">
-                    <div><img u="image" src="assets/img/slide-img5-wedding.jpg" /></div>
-                    <div><img u="image" src="assets/img/slide-img1.jpg" /></div>
-                    <div><img u="image" src="assets/img/slide-img2.jpg" /></div>
-                    <div><img u="image" src="assets/img/slide-img3-child.jpg" /></div>
-                    <div><img u="image" src="assets/img/slide-img4-engage.jpg" /></div>
-                </div>
+            <div class="fotorama" data-autoplay="true">
+                <img u="image" src="assets/img/slide-img5-wedding.jpg" />
+                <img src="assets/img/slide-img1.jpg"/>
+                <img src="assets/img/slide-img2-family.jpg"/>
+                <img src="assets/img/slide-img3-child.jpg"/>
+                <img src="assets/img/slide-img4-engage.jpg"/>
+                
             </div>
         </section>
         <footer>
@@ -49,7 +48,8 @@
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/jssor.slider.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+
 
     </body>
 </html>
