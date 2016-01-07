@@ -1,3 +1,7 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 .container {
   width: 1140px;
   margin: 0 auto;
@@ -15,13 +19,13 @@ header {
 
 .nav {
   list-style: none;
-  width: 25em;
+  width: 35em;
   display: inline-block;
 }
 
 .nav > li {
   display: inline-block;
-  margin: 0 1em 0 0;
+  margin: 0 1em 0 1em;
 }
 
 .nav > li > a {
@@ -29,8 +33,9 @@ header {
   color: #fff;
   font-weight: 300;
   letter-spacing: 1px;
+  padding-bottom: 4px;
 }
 
 .nav > li > a:hover {
-  color: #D9CB1A;
+  border-bottom: 1px solid #dee239;
 }

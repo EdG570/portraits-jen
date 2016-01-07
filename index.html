@@ -9,6 +9,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <header>
@@ -16,16 +17,22 @@
                 <img id="logo" src="assets/img/Portrait-logo.svg" alt="logo">
 
                 <ul class="nav">
-                    <li><a href="#">Weddings</a></li>
-                    <li><a href="#">Portraits</a></li>
+                    <li><a href="#">Wedding</a></li>
+                    <li><a href="#">Engagement</a></li>
+                    <li><a href="#">Children</a></li>
                     <li><a href="#">Family</a></li>
-                    <li><a href="#">ipsom</a></li>
-                    <li><a href="#">ladem</a></li>
+                    <li><a href="#">Portrait</a></li>
                 </ul>
             </div>
         </header>
         <section id="home-content" class="container">
-            
+            <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px;">
+                <!-- Slides Container -->
+                <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 125px; top: 50px; width: 900px; height: 600px; margin: 0 auto;">
+                    <div><img u="image" src="assets/img/slide-img1.jpg" /></div>
+                    <div><img u="image" src="assets/img/slide-img2.jpg" /></div>
+                </div>
+            </div>
         </section>
         <footer>
             
@@ -34,5 +41,7 @@
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/jssor.slider.min.js"></script>
+
     </body>
 </html>
