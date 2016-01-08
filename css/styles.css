@@ -86,3 +86,12 @@ footer p {
   display: block;
   margin: 0 auto;
 }
+
+.facebook {
+  width: 2em;
+}
+
+.facebook:hover {
+  border-bottom: 1px solid #dee239;
+  padding-bottom: 10px;
+}
