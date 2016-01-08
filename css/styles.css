@@ -20,8 +20,9 @@ header {
 
 .nav {
   list-style: none;
-  width: 43em;
+  width: 38em;
   display: inline-block;
+  margin-left: 3em;
 }
 
 .nav > li {
