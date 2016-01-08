@@ -40,17 +40,6 @@ header {
   border-bottom: 1px solid #dee239;
 }
 
-#slider {
-  cursor: move;  
-  overflow: hidden; 
-  left: 125px; 
-  top: 50px; 
-  width: 900px; 
-  height: 600px; 
-  display: block;
-  margin: 0 auto;
-}
-
 footer {
   background-color: #000;
   color: #dee239;
@@ -75,9 +64,14 @@ footer p {
 }
 
 .fotorama {
-  padding: 3em 0;
   width: 1140px;
   display: block;
+  margin: 0 auto;
+}
+
+#home-slideshow {
+  padding: 3em 0 4em 0;
+  width: 960px;
   margin: 0 auto;
 }
 
@@ -85,15 +79,17 @@ footer p {
   width: 960px;
   display: block;
   margin: 0 auto;
-  padding: 6em 0;
+  padding: 4em 0;
 }
 
 #engage-gall {
-  width: 680px;
+  width: 960px;
+  padding: 4em 0;
 }
 
 #portrait-gallery {
-  width: 500px;
+  width: 960px;
+  padding: 4em 0;
 }
 
 .facebook {
