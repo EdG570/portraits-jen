@@ -76,16 +76,24 @@ footer p {
 
 .fotorama {
   padding: 3em 0;
-  width: 1024px;
+  width: 1140px;
   display: block;
   margin: 0 auto;
 }
 
 #engage-gallery {
-  width: 638px;
+  width: 960px;
   display: block;
   margin: 0 auto;
   padding: 6em 0;
+}
+
+#engage-gall {
+  width: 680px;
+}
+
+#portrait-gallery {
+  width: 500px;
 }
 
 .facebook {
