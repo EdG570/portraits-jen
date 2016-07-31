@@ -1,0 +1,25 @@
+{
+  "name": "portraits-jen",
+  "version": "1.0.0",
+  "description": "A portfolio website for a photography business.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdG570/portraits-jen.git"
+  },
+  "author": "Ed Glazenski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdG570/portraits-jen/issues"
+  },
+  "homepage": "https://github.com/EdG570/portraits-jen#readme",
+  "dependencies": {
+    ""
+  }, 
+  "devDependencies": {
+    "jquery": "^3.1.0"
+  }
+}

@@ -1,0 +1,511 @@
+/* ------------ Base Layout Styles ----------- */
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #000;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+}
+
+nav, button {
+  min-width: 48px;
+  min-height: 48px;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+img, 
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.button,
+input[type="submit"] {
+  background-color: #dee239;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  padding: 0.65em 3em;
+  color: #333;
+  margin-top: 2em;
+  border: 2px solid #dee239;
+  transition: background-color 1s ease;
+}
+
+.button:hover,
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #dee239;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* ------------- Layout Containers ------------- */
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.gallery-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.opacity-container {
+  opacity: 0;
+}
+
+/* -------------- Nav Section ------------------ */
+
+header {
+  background-color: #000;
+  padding: 0.5em;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Poiret One', cursive;
+  color: #D9CB1A;
+  letter-spacing: 2px;
+  font-size: 1.75em;
+  font-weight: 300;
+}
+
+header h2 {
+  color: #fff;
+  display: inline-block;
+  margin: 0 auto;
+  font-weight: 200;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #D9CB1A;
+}
+
+header h2:hover {
+  cursor: pointer;
+}
+
+header span {
+  font-family: 'Allura', cursive;
+}
+
+.logo-font {
+  text-decoration: none;
+}
+
+.nav {
+  list-style: none;
+  display: none;  
+}
+
+.nav > li {
+  display: inline-block;
+  margin: 0 1em 0 0.5em;
+}
+
+.nav > li > a {
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-bottom: 0.5em;
+  transition: all 0.5s ease;
+}
+
+.nav > li > a:hover {
+  border-bottom: 1px solid #dee239;
+}
+
+.active-link {
+  border-bottom: 1px solid #dee239;
+}
+
+.nav a,
+.dropdown-nav a {
+  transition: all 0.5s ease;
+}
+
+.dropdown-nav {
+  background-color: #000;
+  padding-left: 0;
+}
+
+.dropdown-nav li {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 0.75em;
+  padding-top: 0.75em;
+  border-bottom: 1px solid #D9CB1A;
+}
+
+.dropdown-nav li:last-child {
+  border-bottom: none;
+}
+
+.dropdown-nav a {
+  color: #fff;
+}
+
+.dropdown-nav a:hover {
+  color: #dee239;
+}
+
+/* ------------ Image Gallery Section ------------- */
+
+.fotorama,
+.gallery-slideshow {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+.gallery-pad {
+  padding: 4em 0;
+}
+
+/* -------------------- Footer Section ---------------------- */
+
+footer {
+  background-color: #000;
+  color: #dee239;
+  padding: 2em 0;
+}
+
+footer p {
+  opacity: 0.3;
+}
+
+.footer-section {
+  text-align: center;
+}
+
+.web {
+  text-decoration: none;
+  color: #dee239;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+.social-media {
+  width: 2em;
+  transition: all 0.5s ease; 
+  padding-bottom: 10px;  
+}
+
+.social-media:hover {
+  border-bottom: 1px solid #dee239;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+/* --------------------- About Me ------------------------- */
+
+#about-me {
+  padding: 1em;
+  text-align: center;
+}
+
+#about-me img {
+  max-width: 400px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+}
+
+#about-me h2 {
+  color: #dee239;
+  font-weight: 200;
+  letter-spacing: 3px;
+  font-size: 2em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+#about-me p {
+  color: #eee;
+  font-weight: 200;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+#about-me .button {
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 450px;
+  margin-top: 1.5em;
+}
+
+/* --------------------- Contact Form --------------------- */
+
+#form-section {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+#form-section h1 {
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+#form-section h1,
+label {
+  color: #fff;
+}
+
+form {
+  max-width: 550px;
+  padding: 1em;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid rgba(222,226,57, 0.2);
+  border-radius: 10px;
+  position: relative;
+}
+
+input,
+textarea,
+form button,
+label {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+textarea,
+input {
+  padding-top: 0.25em;
+  padding-left: 0.5em;
+}
+
+input {
+  height: 2.5em;
+  margin-bottom: 1.5em;
+}
+
+textarea {
+  margin-bottom: 2em;
+  height: 200px;
+  padding-top: 0.5em;
+}
+
+label {
+  font-size: 1.2em;
+  margin-bottom: 0.25em;
+  color: #ccc;
+}
+
+.error-msg {
+  color: red;
+  font-style: italic;
+  padding-bottom: 0.25em;
+  line-height: 1.4;
+}
+
+#display {
+  color: orange;
+}
+
+.check-icon {
+  width: 2em; 
+  position: absolute; 
+}
+
+.first,
+.second,
+.third {
+  right: 1em;
+}
+
+.first {
+  top: 3.2em;
+}
+
+.second {
+  top: 9.4em;
+}
+
+.third {
+  top: 15.6em;
+}
+
+.valid-border {
+  border: 2px solid lightgreen;
+}
+
+.invalid-border {
+  border: 2px solid red;
+}
+
+/* -------------------- THANK YOU / CONTACT ERROR ----------------------*/
+
+#thank-you,
+#contact-error {
+  text-align: center;
+  padding: 7em 1em;
+  line-height: 1.5;
+}
+
+#thank-you p,
+#contact-error p {
+  color: #aaa;
+}
+
+#thank-you h2 {
+  color: lightgreen;
+}
+
+#contact-error h2 {
+  color: red;
+}
+
+#thank-you img,
+#contact-error img {
+  width: 5em;
+}
+
+#thank-you img:last-child,
+#contact-error img {
+  width: 3em;
+}
+
+/* --------------------- MEDIA QUERIES ----------------------*/
+
+@media screen and (min-width: 768px) {
+  .nav {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .dropdown-nav,
+  header h2 {
+    display: none;
+  }
+
+  footer {
+    padding: 5em 0;
+  }
+
+  #about-me {
+    padding-top: 2em;
+  }
+
+  form {
+    padding: 2em;
+  }
+
+  .first,
+  .second,
+  .third {
+    right: 2em;
+  }
+
+  .first {
+    top: 4em;
+  }
+
+  .second {
+    top: 10.2em;
+  }
+
+  .third {
+    top: 16.4em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .about-text,
+  .about-img {
+    float: left;
+    width: 50%;
+  }
+
+  .about-text {
+    text-align: left;
+    padding-top: 2em;
+  }
+
+  #about-me img {
+    width: 100%;
+    max-width: 80%;
+  }
+
+  .about-text h2 {
+    margin-left: 2.7em;
+  }
+
+  #about-me .about-text a.button {
+    margin-left: 4.6em;
+  }
+}
+
+@media screen and (min-width: 1070px) {
+  .nav {
+    float: right;
+    position: relative;
+    top: 2em;
+  }
+
+  .logo-container {
+    float: left;
+  }
+
+  #thank-you,
+  #contact-error {
+    padding: 10em 0;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  header .container {
+    padding-left: 0;
+    padding-right: 0;
+
+  }
+}
+
+/* --------------------- End of Stylesheet ----------------- */
+
