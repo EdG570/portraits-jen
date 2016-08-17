@@ -1,5 +1,5 @@
 <?php
-  $to = 'cole570@hotmail.com';
+  $to = 'jsmm2013@gmail.com';
 
   $subject = "New Mail from Jenmertz.com";
 
